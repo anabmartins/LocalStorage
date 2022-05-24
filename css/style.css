@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    font-family: "Arial";
+}
+body{
+    background-color: #2f8a67;
+   /*background: url(https://static.netshoes.com.br/produtos/camisa-chapecoense-i-1977-sn-torcedor-edicao-especial-umbro-masculina/54/2IA-1040-054/2IA-1040-054_zoom1.jpg?ts=1625668393&);*/
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+    padding: 30px;
+    background-size: 2cm;
+}
+header{
+    background-color: #ccffee;
+    color: #113a17;
+    border-radius: 12px;
+    text-align: center;
+}
+footer{
+    color: aquamarine;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-weight: bold;
+}
+footer li{
+    list-style: none;
+}
+nav{
+    background-color: #2f8a67;
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
+nav li{
+    list-style: none;
+    display: flex;
+}
+li a{
+    color: aquamarine;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.2s color;
+    padding: 5px;
+    border-radius: 1rem;
+}
+li a:hover{
+    background-color: #ccffee;
+    color: #113a17;
+    border-radius: 10px;
+    padding: 5px;
+}
+h2{
+    background-color: #ccffee;
+    border-radius: 1rem;
+    color: #113a17;
+    text-align: center;
+    padding: 5px;
+    align-items: center;
+}
+.container .form {
+    padding: 20px;
+    width: 20px;
+    align-items: center;
+    margin-left: 120px;
+}
+.container{
+    flex-direction: column;
+    margin: auto;
+    display: flex;
+}
+.form input {
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 1rem;
+    border: none;
+    color: #113a17;
+    align-items: center;
+}
+.form input:hover{
+    background-color: #ccffee;
+}
+button{
+    font-size: medium;
+    border-radius: 2rem;
+    border: none;
+    background-color: #ccffee;
+    color: #113a17;
+    padding: 9px;
+    margin-top: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
