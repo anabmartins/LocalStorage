@@ -1,2 +1,2 @@
 # LocalStorage
-Using local storage in JS
+Using local storage with JS
