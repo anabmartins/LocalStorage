@@ -1,2 +1,2 @@
 # LocalStorage
-Using local storage with JS
+Login page using local storage with JS
