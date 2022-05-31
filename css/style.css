@@ -108,8 +108,17 @@ button {
 }
 
 button:hover {
-    
+    background-color: #314c53;
+    color: #bbdec6;
+    transition: background-color .25s ease-out;
+    box-shadow: #314c53 0 0.4rem 1.4rem 0;
 }
+
+button:active {
+    background-color: #bbdec6;
+    color: #314c53;
+}
+
 .list {
     width: 100%;
 }
@@ -130,4 +139,13 @@ button:hover {
     padding-bottom: 1rem;
     border: 2px solid #bbdec6;
     border-radius: 5px;
+}
+
+div.erro {
+    text-align: center;
+    background-color: rgb(255, 36, 36);
+    padding: 13px;
+    margin: auto;
+    font-size: 20px;
+
 }
