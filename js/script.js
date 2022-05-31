@@ -4,12 +4,16 @@ const addUsuario = () => {
     senha = document.getElementById('senha').value
     email = document.getElementById('email').value
     erro = document.querySelector('.erro')
+    certo = document.querySelector('.certo')
+    erro.style.display = 'none'
+    certo.style.display = 'none'
 
     if (nome == "" || email == '' || senha == "") {
         erro.style.display = 'block'
-    } else {
+        certo.style.display = 'none'
+        } else {
         erro.style.display = 'none'
-        window.alert('Registrado com sucesso!')
+        certo.style.display = 'block'
     }
 
     if (localStorage.getItem('usuarios') != null) {
