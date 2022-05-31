@@ -112,6 +112,7 @@ button:hover {
     color: #bbdec6;
     transition: background-color .25s ease-out;
     box-shadow: #314c53 0 0.4rem 1.4rem 0;
+    cursor: pointer;
 }
 
 button:active {
