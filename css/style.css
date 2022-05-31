@@ -1,73 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-*{
+
+* {
     font-family: "Arial";
 }
-body{
-    background-color: #2f8a67;
-   /*background: url(https://static.netshoes.com.br/produtos/camisa-chapecoense-i-1977-sn-torcedor-edicao-especial-umbro-masculina/54/2IA-1040-054/2IA-1040-054_zoom1.jpg?ts=1625668393&);*/
+
+body {
+    background-color: #5a7f78;
+    /*background: url(https://static.netshoes.com.br/produtos/camisa-chapecoense-i-1977-sn-torcedor-edicao-especial-umbro-masculina/54/2IA-1040-054/2IA-1040-054_zoom1.jpg?ts=1625668393&);*/
     color: #fff;
     font-size: 24px;
     margin: 0;
     padding: 30px;
     background-size: 2cm;
 }
-header{
-    background-color: #ccffee;
-    color: #113a17;
+
+header {
+    background-color: #314c53;
+    color: #bbdec6;
     border-radius: 12px;
     text-align: center;
+    padding: 20px;
 }
-footer{
-    color: aquamarine;
+
+footer {
+    color: #f7f8fc;
     padding-top: 3rem;
     padding-bottom: 3rem;
     font-weight: bold;
 }
-footer li{
+
+footer li {
     list-style: none;
 }
-nav{
-    background-color: #2f8a67;
+
+nav {
     padding: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
-nav li{
+
+nav li {
     list-style: none;
     display: flex;
 }
-li a{
-    color: aquamarine;
+
+li a {
+    color: #f7f8fc;
     font-weight: bold;
     text-decoration: none;
     transition: 0.2s color;
     padding: 5px;
     border-radius: 1rem;
 }
-li a:hover{
-    background-color: #ccffee;
-    color: #113a17;
+
+li a:hover {
+    background-color: #f7f8fc;
+    color: #314c53;
     border-radius: 10px;
     padding: 5px;
 }
-h2{
-    background-color: #ccffee;
+
+h2 {
+    background-color: #bbdec6;
     border-radius: 1rem;
-    color: #113a17;
+    color: #314c53;
     text-align: center;
     padding: 5px;
     align-items: center;
 }
+
 .container .form {
     padding: 20px;
     width: 20px;
     align-items: center;
     margin-left: 120px;
 }
-.container{
+
+.container {
     flex-direction: column;
     margin: auto;
     display: flex;
 }
+
 .form input {
     padding: 10px;
     font-size: 20px;
@@ -77,17 +90,44 @@ h2{
     color: #113a17;
     align-items: center;
 }
-.form input:hover{
-    background-color: #ccffee;
+
+.form input:hover {
+    background-color: #bbdec6;
 }
-button{
+
+button {
     font-size: medium;
     border-radius: 2rem;
     border: none;
-    background-color: #ccffee;
-    color: #113a17;
+    background-color: #bbdec6;
+    color: #314c53;
     padding: 9px;
     margin-top: 20px;
     font-weight: bold;
     margin: 10px;
+}
+
+button:hover {
+    
+}
+.list {
+    width: 100%;
+}
+
+.list table {
+    width: 100%;
+}
+
+.list table th {
+    color: #314c53;
+    border-radius: 5px;
+    background-color: #bbdec6;
+}
+
+.list table td {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 2px solid #bbdec6;
+    border-radius: 5px;
 }
