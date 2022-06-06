@@ -1,47 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Localstorage</title>
+    <title>Login</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
     <header>
-        <h1>Gerenciamento de Usuários</h1>
+        <h1>Login do Usuário</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="usuario.html">Usuário</a></li>
-            <li><a href="list.html">Lista de Usuários</a></li>
-        </ul>
-    </nav>
-    <div class="container">
-        <h2>Novo Usuário</h2>
-        <div class="erro">
-            Preencha o formulário corretamente!
-        </div>
-        <div class="certo">
-            Registrado com sucesso!
-        </div> 
-        <div class="form">
-            <input type="text" id="nome" placeholder="Nome do usuário">
-            <input type="email" id="email" placeholder="E-mail do usuário">
-            <input type="password" id="senha" placeholder="Senha do usuário">
+    <section>
+        <div class="usuarios">
+            <p>Nome<br><input type="text" name="nome" id="nome"></p>
+            <form name="f1">
+            <p>Email<br><input type="email" name="email" onblur="validarEmail(f1.email)" 
+            maxlength="60" size='65' id="email"></p>
+            <div id="msgemail"></div>
+            </form>
+            <p>Senha<br><input type="password" name="senha" id="senha"></p>
+            <div id="alerta"></div>
+            <div class="btn">
             <button type="button" id="btn" onclick="addUsuario()">Enviar</button>
+            <form action="usuarios.html">
+            <button type="submit" id="us">Usuários</button>
+        </form>
         </div>
-    </div>
+        </div>
+    </section>
     <footer>
-        <ul>
-            <li>SESI SENAI</li>
-            <li>CTAI Florianópolis</li>
-            <li>SC-401, 3730 - Saco Grande, Florianópolis - SC</li>
-            <li>CEP: 88032-005</li>
-        </ul>
+        <p>&copy; Ana Beatriz</p>
     </footer>
-    <script src="./js/script.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>

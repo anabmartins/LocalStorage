@@ -1,49 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Localstorage</title>
+    <title>Gerenciamento de Usuários</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body onload="listUsuarios()">
     <header>
         <h1>Gerenciamento de Usuários</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Usuário</a></li>
-            <li><a href="list.html">Lista de Usuários</a></li>
-        </ul>
-    </nav>
-    <div class="container">
-        <h2>Lista de Usuário</h2>
-        <div class="list">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Nome</th>
-                        <th>E-mail</th>
-                    </tr>
-                </thead>
-                <tbody id="table-linha">
-
-
-                </tbody>
-            </table>
+    <section id="login">
+        <form action="index.html">
+            <button type="submit" id="us">Login</button>
+        </form>
+        <div class="usuarios">
+            <div class="list">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>E-mail</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-linha">
+    
+    
+                    </tbody>
+                </table>
+            </div>
         </div>
-    </div>
-    <footer>
-        <ul>
-            <li>SESI SENAI</li>
-            <li>CTAI Florianópolis</li>
-            <li>SC-401, 3730 - Saco Grande, Florianópolis - SC</li>
-            <li>CEP: 88032-005</li>
-        </ul>
-    </footer>
-    <script src="./js/script.js"></script>
-</body>
 
+        </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Ana Beatriz</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
 </html>

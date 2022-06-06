@@ -1,123 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-
-* {
-    font-family: "Arial";
+body{
+    font: normal 15pt Arial;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #2f376d;
+    background-image: linear-gradient(to bottom right, #3693cf, #3117bd);
+    background-repeat: no-repeat;
 }
-
-body {
-    background-color: #5a7f78;
-    /*background: url(https://static.netshoes.com.br/produtos/camisa-chapecoense-i-1977-sn-torcedor-edicao-especial-umbro-masculina/54/2IA-1040-054/2IA-1040-054_zoom1.jpg?ts=1625668393&);*/
-    color: #fff;
-    font-size: 24px;
-    margin: 0;
-    padding: 30px;
-    background-size: 2cm;
-}
-
-header {
-    background-color: #314c53;
-    color: #bbdec6;
-    border-radius: 12px;
+header{
+    color: white;
     text-align: center;
-    padding: 20px;
-}
-
-footer {
-    color: #f7f8fc;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    font-weight: bold;
-}
-
-footer li {
-    list-style: none;
-}
-
-nav {
-    padding: 1rem;
-    margin-bottom: 2rem;
-}
-
-nav li {
-    list-style: none;
-    display: flex;
-}
-
-li a {
-    color: #f7f8fc;
-    font-weight: bold;
-    text-decoration: none;
-    transition: 0.2s color;
-    padding: 5px;
-    border-radius: 1rem;
-}
-
-li a:hover {
-    background-color: #f7f8fc;
-    color: #314c53;
+    }
+    section{
+    background: white;
     border-radius: 10px;
-    padding: 5px;
-}
-
-h2 {
-    background-color: #bbdec6;
-    border-radius: 1rem;
-    color: #314c53;
-    text-align: center;
-    padding: 5px;
-    align-items: center;
-}
-
-.container .form {
-    padding: 20px;
-    width: 20px;
-    align-items: center;
-    margin-left: 120px;
-}
-
-.container {
-    flex-direction: column;
+    padding: 15px;
+    width: 500px;
     margin: auto;
-    display: flex;
-}
-
-.form input {
-    padding: 10px;
-    font-size: 20px;
-    margin: 10px;
-    border-radius: 1rem;
-    border: none;
-    color: #113a17;
-    align-items: center;
-}
-
-.form input:hover {
-    background-color: #bbdec6;
-}
-
-button {
-    font-size: medium;
-    border-radius: 2rem;
-    border: none;
-    background-color: #bbdec6;
-    color: #314c53;
-    padding: 9px;
-    margin-top: 20px;
-    font-weight: bold;
-    margin: 10px;
-}
-
-button:hover {
-    background-color: #314c53;
-    color: #bbdec6;
-    transition: background-color .25s ease-out;
-    box-shadow: #314c53 0 0.4rem 1.4rem 0;
-    cursor: pointer;
-}
-
-button:active {
-    background-color: #bbdec6;
-    color: #314c53;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    }
+    footer{
+        color: white;
+        text-align: center;
+        font-style: italic;
+    }
+    #btn{
+        border: 0 solid;
+        font-family: Arial;
+        background-color: #2f376d;
+        color: #ffff;
+        display: grid;
+        place-content: center;
+        padding: 10px;
+        border-radius: 0.375rem;
+        font-weight: 600;
+        cursor: pointer;
+        width: 10rem;
+        margin-top: 30px;
+        margin-right: 30px;
+        margin-left: 65px;
+    }
+    #btn:hover{
+        box-shadow: 0rem 0.3rem 0.3rem 0rem rgb(99 102 241/0.5);
+    }
+    section .usuarios{
+        margin: 30px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+    }
+    input {
+        width: 15rem;
+        padding: 5px;
+        font-size: 15px;
+      }
+      #us{
+        border: 0 solid;
+        font-family: Arial;
+        background-color: #2f376d;
+        color: #ffff;
+        display: grid;
+        place-content: center;
+        padding: 10px;
+        border-radius: 0.375rem;
+        font-weight: 600;
+        cursor: pointer;
+        width: 10rem;
+        margin-top: 30px;
+      }
+      #us:hover{
+        box-shadow: 0rem 0.3rem 0.3rem 0rem rgb(99 102 241/0.5);
+    }
+    .btn{
+        column-count: 2;
+        display: flex;
+    }
+    #msgemail{
+        font-size: 19px;
 }
 
 .list {
@@ -129,24 +89,15 @@ button:active {
 }
 
 .list table th {
-    color: #314c53;
+    color: #ffffff;
     border-radius: 5px;
-    background-color: #bbdec6;
+    background-color: #2f376d;
 }
 
 .list table td {
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    border: 2px solid #bbdec6;
+    border: 2px solid #00377561;
     border-radius: 5px;
-}
-
-div.erro {
-    text-align: center;
-    background-color: rgb(255, 36, 36);
-    padding: 13px;
-    margin: auto;
-    font-size: 20px;
-
 }
