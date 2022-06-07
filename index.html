@@ -20,6 +20,8 @@
             <div id="msgemail"></div>
             </form>
             <p>Senha<br><input type="password" name="senha" id="senha"></p>
+            <p>Confirmar senha<br><input type="password" name="senha" id="confsenha" onblur="validarSenha()"></p>
+            <div id="csenha"></div>
             <div id="alerta"></div>
             <div class="btn">
             <button type="button" id="btn" onclick="addUsuario()">Enviar</button>

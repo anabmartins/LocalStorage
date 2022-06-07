@@ -101,3 +101,10 @@ header{
     border: 2px solid #00377561;
     border-radius: 5px;
 }
+button#trash{
+    border: none;
+    border-radius: 100%;
+    background: #c8cfff;
+    cursor: pointer;
+    font-size: 24px;
+}
