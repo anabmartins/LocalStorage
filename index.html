@@ -4,28 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kong Ming | Home</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="navbar">
-            <h1>KongMing</h1>
-            <ul class="menu">
-                <li><a href="index.html">Início</a></li>
-                <li><a href="#">Leis da Termodinâmica</a></li>
-                <li><a href="">Aplicação</a></li>
-                <li><a href="">KongMing (máquina)</a></li>
-                <li><a href="">Calculadora</a></li>
-                <li><a href="">Referências</a></li>
-                <li><a href="">Erros</a></li>
-                <div id="des">
-                    Lanterna flutuante (balão de papel) a base de papel manteiga e uma fonte de calor. Utilizando o princípio da transformação isobárica (pressão constante) a fonte de calor aumenta a temperatura, que influencia somente o volume do gás, fazendo com que o balão suba. A transformação de energia térmica em trabalho mecânico configura uma máquina térmica.
-                </div>
-            </ul>
+    <header>
+        <h1>Login do Usuário</h1>
+    </header>
+    <section>
+        <div class="usuarios">
+            <p>Nome<br><input type="text" name="nome" id="nome"></p>
+            <form name="f1">
+            <p>Email<br><input type="email" name="email" onblur="validarEmail(f1.email)" 
+            maxlength="60" size='65' id="email"></p>
+            <div id="msgemail"></div>
+            </form>
+            <p>Senha<br><input type="password" name="senha" id="senha"></p>
+            <p>Confirmar senha<br><input type="password" name="senha" id="confsenha" onblur="validarSenha()"></p>
+            <div id="csenha"></div>
+            <div id="alerta"></div>
+            <div class="btn">
+            <button type="button" id="btn" onclick="addUsuario()">Enviar</button>
+            <form action="usuarios.html">
+            <button type="submit" id="us">Usuários</button>
+        </form>
         </div>
-<footer>
-
-</footer>
-<script src="script.js"></script>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Ana Beatriz</p>
+    </footer>
+    <script src="./js/script.js"></script>
 </body>
 </html>
